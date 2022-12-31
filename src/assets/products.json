@@ -1,0 +1,140 @@
+{
+  "items": [
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "title": "The Falling One",
+        "price": 10.99,
+        "description": "fantastic for the ones who loves that things are climbing them!",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "title": "The lighting one",
+        "price": 12.99,
+        "description": "this one is great for those who love to sit in the light rather then the dark!",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-2.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3"
+      },
+      "fields": {
+        "title": "The Color one",
+        "price": 12.99,
+        "description": "nothing funny about this one, it is actually a nice one with color and everything!",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-3.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4"
+      },
+      "fields": {
+        "title": "The Blocking One",
+        "price": 22.99,
+        "description": "this one is for those who love planet that are blocking the stairs!",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-4.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5"
+      },
+      "fields": {
+        "title": "The Giant white one",
+        "price": 68.99,
+        "description": "this one is actually grown on extreme contidions, on the snow from Mount Hermon, so it got some amazing white colors!",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-5.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "6"
+      },
+      "fields": {
+        "title": "The Jungle Ones",
+        "price": 32.99,
+        "description": "this ones will give your garden a sense of jungle. it comes with extra bag of flies and bugs!",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-6.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7"
+      },
+      "fields": {
+        "title": "The Giant white one",
+        "price": 45.99,
+        "description": "this one is actually grown on extreme contidions, on the snow from Mount Hermon, so it got some amazing white colors. but it was there only 3 hourse so it is not so white as the giant one, you should get the giant one..",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-7.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "8"
+      },
+      "fields": {
+        "title": "My One",
+        "price": 999999.99,
+        "description": "this one is raised by me on my apertment.One day I saw that she was starting to grow leaves So I put it in a water, this one is special to me, this is why it a bit expensive. ",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-8.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
