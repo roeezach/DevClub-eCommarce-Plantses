@@ -31,8 +31,8 @@
     <!-- <hero> -->
     <header class="hero">
         <div class="banner">
-            <h1 class="banner-title">Plant collection</h1>
-            <button class="banner-btn">shop now</button>
+            <h1 class="banner-title">Plants collection</h1>
+            <button class="banner-btn" id="popup-banner">Credits</button>
         </div>
     </header>
     <!-- <end hero> -->
@@ -52,13 +52,6 @@
                     <img src="" class="product-img" id="product7" alt="product">
                     <img src="" class="product-img" id="product8" alt="product">
                 </div>
-                <!-- <the above div is after change in js> -->
-                <!-- <button class="bag-btn" data-id="1">
-                        <i class="fas fa-shopping-cart"></i>
-                    </button>
-                </div>
-                <h3>the one with lights</h3>
-                <h4>15$</h4> -->
             </article>
         </div>
     </section>
@@ -73,18 +66,6 @@
             <div class="cart-content" id="cart-content">
                 <!-- <cart item (cartline)> -->
                 <div class="cart-item">
-                    <!-- <img src="" id="product2" alt="product">
-                    <div class="">
-                        <h4>the one with lights</h4>
-                        <h5>50$</h5>
-                        <span class="remove-items">remove</span>
-                    </div>
-                    <div class="">
-                        <i class="fas fa-chevron-up"></i>
-                        <p class="item-amount">1</p>
-                        <i class="fas fa-chevron-down"></i>
-
-                    </div> -->
                 </div>
                 <!-- <end ofcart item (cartline)> -->
             </div>
@@ -95,10 +76,38 @@
         </div>
     </div>
     <!-- <end ofcart> -->
+    <div class="contact-us">
+        <h3>Contact Us Form</h3>
+    </div>
 
+    <div id="form-wrapper">
+        <form novalidate>
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+                <p class="error-text"></p>
+            </div>
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+                <p class="error-text"></p>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <p class="error-text"></p>
+            </div>
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+                <p class="error-text"></p>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
 
-
-    <!-- <script src="index.js"></script> -->
 </body>
 
 </html>

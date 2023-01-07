@@ -309,3 +309,92 @@ body {
 }
 
 /* --------------- End of Cart ---------------- */
+
+/* --------------- pop up ---------------- */
+.popup-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-content {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(28, 114, 71);
+    z-index: 1001;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+
+/* --------------- end of pop up ---------------- */
+
+/* --------------- start of form ---------------- */
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+form input {
+    height: 32px;
+    width: 100%;
+    padding: 0 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+form button[type="submit"] {
+    margin-top: 16px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-us h3 {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+.submit-text {
+    color: white;
+}
+
+/* --------------- end of form ---------------- */
