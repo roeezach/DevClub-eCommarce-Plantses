@@ -49,35 +49,35 @@ document.addEventListener("DOMContentLoaded", () => {
     cartController.cartLogic();
 
 
-    // ///pop up service
-    // const popupBtn = document.getElementById('popup-banner');
-    // popupBtn.addEventListener('click', () => {
-    //     const popupBody = `<div class="popup-body">
-    //     <img src="https://avatars.githubusercontent.com/u/106396740?v=4" alt="Profile picture" />
-    //     </div>`;
-    //     const options = {
-    //         isCloseByClickOutside: true,
-    //         popupClassName: 'my-popup',
-    //     };
-    //     myPopupService.open(popupBody, options);
-    // });
+    ///pop up service
+    const popupBtn = document.getElementById('popup-banner');
+    popupBtn.addEventListener('click', () => {
+        const popupBody = `<div class="popup-body">
+        <img src="https://avatars.githubusercontent.com/u/106396740?v=4" alt="Profile picture" />
+        </div>`;
+        const options = {
+            isCloseByClickOutside: true,
+            popupClassName: 'my-popup',
+        };
+        myPopupService.open(popupBody, options);
+    });
 
-    // // form service 
+    // form service 
 
-    // const formParentElement = document.getElementById('form-wrapper');
-    // const onSubmit = () => {
-    //     const options = {
-    //         isCloseByClickOutside: true,
-    //         popupClassName: 'my-popup',
-    //     };
+    const formParentElement = document.getElementById('form-wrapper');
+    const onSubmit = () => {
+        const options = {
+            isCloseByClickOutside: true,
+            popupClassName: 'my-popup',
+        };
 
-    //     const popupBody = `<div class="submit-text">
-    //     <p>your form have been submited properly,thanks!</p>
-    //     </div>`;
-    //     myPopupService.open(popupBody, options);
-    // }
+        const popupBody = `<div class="submit-text">
+        <p>your form have been submited properly,thanks!</p>
+        </div>`;
+        myPopupService.open(popupBody, options);
+    }
 
-    // const formService = FormService(formParentElement, onSubmit)
+    const formService = FormService(formParentElement, onSubmit)
 
 });
 
